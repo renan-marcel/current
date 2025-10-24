@@ -1,5 +1,13 @@
 # Arquivos e diretórios comuns a serem ignorados
 
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+FileContentIndex/
+
 # IDEs e Editores
 .vscode/
 .idea/
