@@ -1,0 +1,23 @@
+# CODEOWNERS
+# Este arquivo define os proprietários de código para este repositório
+# Os proprietários serão automaticamente requisitados para revisão quando
+# alguém abrir um pull request que modifica código que eles possuem.
+#
+# Mais informações: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Proprietário padrão para todo o repositório
+* @renan-marcel
+
+# Documentação
+/docs/ @renan-marcel
+*.md @renan-marcel
+
+# Código fonte
+/src/ @renan-marcel
+
+# Testes
+/tests/ @renan-marcel
+
+# Configurações e arquivos de infraestrutura
+.gitignore @renan-marcel
+CODEOWNERS @renan-marcel
