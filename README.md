@@ -50,8 +50,15 @@ Este projeto segue o padrão **Conventional Commits**:
 
 ## Documentação
 
+- **?? [Guia Rápido para Iniciantes](.github/QUICK-START.md)** - Comece aqui se é novo no projeto! (10 min)
+- **??? [Mapa de Navegação](.github/NAVIGATION-MAP.md)** - Encontre exatamente o que precisa (5 min)
 - [Gitflow Workflow](docs/Gitflow.md) - Guia completo do fluxo de trabalho Git
 - [Política de Segurança](SECURITY.md) - Como reportar vulnerabilidades
+- [Índice de Diretrizes](.github/INDEX.md) - Ponto de entrada para toda documentação
+- [Diretrizes de Desenvolvimento](.github/copilot-guidelines.md) - Padrões e boas práticas com DDD
+- [Padrões DDD Detalhados](.github/DDD-PATTERNS.md) - Exemplos práticos completos
+- [Checklist DDD](.github/DDD-CHECKLIST.md) - Guia de verificação ao implementar componentes
+- [Sumário Executivo](.github/SUMMARY.md) - Visão geral das diretrizes criadas
 
 ## Licença
 
