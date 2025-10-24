@@ -1,1 +1,10 @@
-<Solution />
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/Gitflow.md" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/tests/" />
+</Solution>

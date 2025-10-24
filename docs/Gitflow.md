@@ -1,4 +1,4 @@
-# ?? Gitflow
+# Gitflow
 
 Este projeto utiliza o **Gitflow** como estratégia de branching para gerenciamento de versões e desenvolvimento colaborativo.
 
@@ -115,62 +115,62 @@ git push origin main develop --tags
 
 ```
 main (produção)
-  ?
-  ???? hotfix/1.0.1 (correção urgente)
-  ?      ?
-  ?      ??? merge ? main + develop
-  ?
-  ???? release/1.0.0 (preparação de release)
-  ?      ?
-  ?      ??? merge ? main + develop
-  ?
+ ?
+ hotfix/1.0.1 (correção urgente)
+ ?   ?
+ ?   ?merge ? main + develop
+ ?
+ release/1.0.0 (preparação de release)
+ ?   ?
+ ?   ?merge ? main + develop
+ ?
 develop (integração)
-  ?
-  ???? feature/login (nova funcionalidade)
-  ?      ?
-  ?      ??? merge ? develop
-  ?
-  ???? feature/dashboard (nova funcionalidade)
-         ?
-     ??? merge ? develop
+ ?
+ feature/login (nova funcionalidade)
+ ?   ?
+ ?   ?merge ? develop
+ ?
+ feature/dashboard (nova funcionalidade)
+     ?
+   ?merge ? develop
 ```
 
 ## Boas Práticas
 
 1. **Sempre sincronize antes de criar uma branch**
-   ```bash
-   git checkout develop
-   git pull origin develop
-   ```
+  ```bash
+  git checkout develop
+  git pull origin develop
+  ```
 
 2. **Use commits semânticos** (Conventional Commits)
-   - `feat:` Nova funcionalidade
-   - `fix:` Correção de bug
-   - `docs:` Documentação
-   - `refactor:` Refatoração
-   - `test:` Testes
-   - `chore:` Tarefas gerais
+  - `feat:` Nova funcionalidade
+  - `fix:` Correção de bug
+  - `docs:` Documentação
+  - `refactor:` Refatoração
+  - `test:` Testes
+  - `chore:` Tarefas gerais
 
 3. **Mantenha as features pequenas e focadas**
-   - Uma feature = uma funcionalidade específica
-   - Facilita code review e integração
+  - Uma feature = uma funcionalidade específica
+  - Facilita code review e integração
 
 4. **Delete branches após merge**
-   - Mantém o repositório organizado
-   - Evita confusão com branches antigas
+  - Mantém o repositório organizado
+  - Evita confusão com branches antigas
 
 5. **Tags para todas as versões**
-   - Facilita rollback se necessário
-   - Mantém histórico de versões claro
+  - Facilita rollback se necessário
+  - Mantém histórico de versões claro
 
 ## Versionamento Semântico
 
 Este projeto segue o [Semantic Versioning 2.0.0](https://semver.org/):
 
 - **MAJOR.MINOR.PATCH** (ex: 1.2.3)
-  - **MAJOR**: Mudanças incompatíveis na API
-  - **MINOR**: Novas funcionalidades compatíveis
-  - **PATCH**: Correções de bugs compatíveis
+ - **MAJOR**: Mudanças incompatíveis na API
+ - **MINOR**: Novas funcionalidades compatíveis
+ - **PATCH**: Correções de bugs compatíveis
 
 ## Referências
 
