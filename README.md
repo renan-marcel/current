@@ -11,6 +11,12 @@ Current/
 ? README.md   # Este arquivo
 ```
 
+## ?? Segurança
+
+A segurança é uma prioridade para o projeto Current. Se você descobrir alguma vulnerabilidade de segurança, por favor, consulte nossa [Política de Segurança](SECURITY.md) para saber como reportá-la de forma responsável.
+
+**NÃO reporte vulnerabilidades através de issues públicas.**
+
 ## Gitflow
 
 Este projeto utiliza o **Gitflow** como estratégia de branching:
@@ -45,11 +51,12 @@ Este projeto segue o padrão **Conventional Commits**:
 ## Documentação
 
 - [Gitflow Workflow](docs/Gitflow.md) - Guia completo do fluxo de trabalho Git
+- [Política de Segurança](SECURITY.md) - Como reportar vulnerabilidades
 
 ## Licença
 
-A definir.
+Este projeto está sob **Licença Proprietária**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+**Importante**: Este é um software comercial proprietário. Todos os direitos são reservados. O uso, cópia, modificação ou distribuição sem autorização expressa é proibido.
 
 ## Contribuidores
-
-A definir.
